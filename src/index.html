@@ -1,13 +1,33 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8">
-  <title>D3App</title>
+  <title>Angular and D3</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
-</head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
 <body>
-  <app-root></app-root>
+  <header class="navbar fixed-top navbar-dark bg-primary">
+    <nav class="container">
+      <div>
+        <span class="navbar-brand">Angular Core Concepts</span>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <app-root>
+      Loading...
+    </app-root>
+    <br/> <br/>
+  </main>
+
+  <script src="polyfills.pack.js"></script>
+  <script src="main.pack.js"></script>
+
 </body>
+
 </html>
